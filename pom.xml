@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>core</groupId>
-	<artifactId>HW_28</artifactId>
+	<artifactId>HW_30</artifactId>
 	<packaging>jar</packaging>
-	<version>${build.version}</version>
-	<name>HW_28</name>
+	<version>1.0</version>
+	<name>HW_30</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -43,7 +43,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>${mainClass}</mainClass>
+							<mainClass>Input_ISR</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -69,7 +69,7 @@
 					<archive>
 						<manifest>
 						  <!--  <mainClass>core.App</mainClass> -->
-							<mainClass>${mainClass}</mainClass>
+							<mainClass>Input_ISR</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
